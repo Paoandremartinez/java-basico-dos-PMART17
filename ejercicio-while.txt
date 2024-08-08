@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int num=1;
+        int contador=0;
+
+        while (num<=10)
+
+        {
+            System.out.println("Incremento del numero                    + " + num);
+            contador=contador + num;
+            num ++;
+        }
+        System.out.println("_____________________________________________");
+        System.out.println("La sumatoria de los números del 1 al 10 es " + contador);
+    }
+}
